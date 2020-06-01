@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     background: rgb(36, 36, 36);
+    transition: .4s all ease-in;
 }
 
 .div1 {
@@ -13,7 +14,7 @@
 .h1 {
     color: rgb(255, 77, 77);
     font-size: 80px;
-    font-family: 'Caveat', cursive;
+    font-family: 'Righteous', cursive;
     text-align: center;
     margin: 0px;
 }
@@ -33,11 +34,12 @@
 .profile {
     width: 200px;
     height: 200px;
-    border-radius: 10px;
+    border-radius: 100px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     filter: grayscale();
+    transition: .3s ease-in-out;
 }
 
 .h3 {
@@ -53,9 +55,10 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    filter: grayscale();
     width: 200px;
     height: 200px;
+    filter: grayscale();
+    transition: .3s ease-in-out;
 }
 
 button {
@@ -96,4 +99,13 @@ button:focus {
 .button2:focus {
     background-color: rgb(245, 0, 0);
     color: rgb(255, 255, 255);
+}
+
+.profile:hover {
+    border-radius: 100px;
+    filter: none;
+}
+
+.hobbyimg:hover {
+    filter: none;
 }
